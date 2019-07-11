@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" >
+  <test name="Test">
+  <groups>
+  <run>
+     <include name = "real" />
+         <include name = "dummy" />
+    
+  </run>
+  </groups>
+    <classes>
+      <class name="tng.framework.TNG_10_BeforeGroup"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

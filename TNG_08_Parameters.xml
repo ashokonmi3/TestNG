@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+   <parameter name="searchTerm" value="javaselenium" />
+  <parameter name="url" value="https://google.com" />
+    <classes>
+      <class name="tng.framework.TNG_08_Parameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
